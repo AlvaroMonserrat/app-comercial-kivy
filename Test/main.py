@@ -3,6 +3,11 @@
 --------
 """
 
-num1 = input("Ingrese un numero: ")
 
-print("El numero ingresado es ", num1)
+a = float(input("Ingrese un numero: "))
+b = float(input("Ingrese un numero: "))
+c = float(input("Ingrese un numero: "))
+print("La suma de los numeros es", a+b+c)
+
+if a == 3 or a == 2:
+    print("El valor de 'a' es el esperado")
