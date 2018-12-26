@@ -1,7 +1,8 @@
+#Comentario
+"""
+--------
+"""
 
+num1 = input("Ingrese un numero: ")
 
-
-
-
-print("Test 1")
-
+print("El numero ingresado es ", num1)
