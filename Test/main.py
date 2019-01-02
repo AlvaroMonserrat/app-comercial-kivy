@@ -2,12 +2,12 @@
 """
 --------
 """
+print("1")
 
+n = 0
 
-a = float(input("Ingrese un numero: "))
-b = float(input("Ingrese un numero: "))
-c = float(input("Ingrese un numero: "))
-print("La suma de los numeros es", a+b+c)
+while n < 100:
+    n += 1
+    print(n)
 
-if a == 3 or a == 2:
-    print("El valor de 'a' es el esperado")
+print("2")
