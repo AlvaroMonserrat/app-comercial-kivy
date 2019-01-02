@@ -4,10 +4,12 @@
 """
 print("1")
 
-n = 0
+a = int(input("Ingrese un primer numero "))
+b = int(input("Ingrese un segundo numero "))
 
-while n < 100:
-    n += 1
-    print(n)
-
-print("2")
+if a > b:
+    print("El primer numero es mayor al segundo")
+elif a < b:
+    print("El segundo numero es mayor al primero")
+else:
+    print("Los numeros son iguales")
