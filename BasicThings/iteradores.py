@@ -21,7 +21,6 @@ else:
     print("Fin del Ciclo")
 ------------------------------------------------------"""
 
-
 # for var> in <lista> and function -range([start],stop[,step])- -range(stop[)-
 """------------------------------------------------------
 for c in range(10, 0, -1):
@@ -31,8 +30,18 @@ for c in range(10, 0, -1):
     if c == 5:
         break
 ------------------------------------------------------"""
+
 # Estructura de Datos (7 principales)
-# Lista
+# Lista []
+
+lista = ["Hola", 2, 'b', 5, 'c', [0, 1]]
+listcharacter = list("Alvaro")
+
+for i in lista:
+    print(i)
+
+print("El tercer elemeto de la lista es: "+str(lista[2]))
+
 # Pila
 # Array / Matriz / Vector
 # Tupla
