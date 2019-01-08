@@ -9,8 +9,11 @@ print(lista[2::2]) #imptimi desde lista[2] en a delante y en pasos de dos
 print(lista[::-1]) #Invertir lista
 """
 
+
+
+#Incluir, alterar y extraer
 """
-#Incluir, alterar y extraer elementos de una lista
+
 #Incluir
 l = ["aaa", "bbb", "ccc"]
 l.append("ddd")
@@ -38,3 +41,31 @@ l = ["aaa", "bbb", "ccc", "ddd", "eee"]
 del(l[2:4])
 print(l)
 """
+
+
+
+#Ordenamiento de lista
+"""
+
+
+#Invertir datos de una lista
+list_names = ["Paula", "Javiera", "Pedro", "Claudia", "Sofia", "Carlos"]
+print(list_names)
+
+list_names.reverse()#Invertir datos de una lista
+print(list_names)
+
+list_names.sort()#Ordenar de forma ascendente
+print(list_names)
+
+list_names.sort(reverse=True)#Ordenar de forma descendente
+print(list_names)
+"""
+
+
+#Lenght, Contar elementos, index
+
+list_nums = [10, 20, 30 ,40 ,50 ,60 ,70 ,60 ,80 ,60]
+print(len(list_nums)) #Entrega el numero de elementos de la lista
+print(list_nums.count(60)) #Entrega en numero de elementos iguales
+print(list_nums.index(30)) #Entrega la posicion del elemento a buscar
