@@ -1,2 +1,3 @@
 # app-comercial-kivy
-curso 
+Curso de Python
+BasisThings
