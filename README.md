@@ -3,3 +3,4 @@ Curso de Python
 ## BasicThings:
   - Iteradores
   - Estructuras de Datos - Lista y Tupla
+  - Strings
