@@ -4,3 +4,4 @@ Curso de Python
   - Iteradores
   - Estructuras de Datos - Lista y Tupla
   - Strings
+  - Dicionarios
