@@ -5,3 +5,4 @@ Curso de Python
   - Estructuras de Datos - Lista y Tupla
   - Strings
   - Dicionarios
+  - Funciones
