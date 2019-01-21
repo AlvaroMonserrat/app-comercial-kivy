@@ -6,3 +6,4 @@ Curso de Python
   - Strings
   - Dicionarios
   - Funciones
+  - Modulos
