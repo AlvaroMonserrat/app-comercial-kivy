@@ -1,3 +1,5 @@
+
+
 #Funcion: Bloque de instruccion que presenta un nombre unico y siempre retorna un valor.
 
 #Declarar funciones
@@ -140,3 +142,4 @@ def function():
 
 function()
 """
+

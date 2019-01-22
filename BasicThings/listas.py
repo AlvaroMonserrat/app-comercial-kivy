@@ -85,5 +85,6 @@ x = 10
 if x in (1, 5, 10, 20, 30):
     print("El valor esta contenido")
 else:
+
     print("El valor no esta contenido")
 

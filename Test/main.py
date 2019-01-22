@@ -1,3 +1,4 @@
+import BasicThings.modules as mt
 #Comentario
 """
 --------
@@ -27,3 +28,6 @@ elif a < b:
     print("El segundo numero %d es mayor que el primero %d." %(b, a))
 else:
     print("Los numeros son iguales a: " + str(a))
+
+
+print(mt.areaCirculo(5))
