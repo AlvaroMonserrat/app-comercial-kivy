@@ -1,3 +1,10 @@
+"""Etapas de importacion de modulos"""
+#Localizacion
+#Compilacion
+#Ejecucion
+
+import dis
+
 from math import pi
 
 
@@ -11,4 +18,5 @@ def areaRectangulo(x,y):
     result = x * y
     return result
 
-print(areaRectangulo(2,3))
+#byte code de la funcion areaCirculo
+dis.dis(areaCirculo)

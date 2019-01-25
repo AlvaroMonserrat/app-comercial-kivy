@@ -1,33 +1,21 @@
-import BasicThings.modules as mt
-#Comentario
-"""
---------
-"""
-print("1")
-
-a = int(input("Ingrese un primer numero "))
-b = int(input("Ingrese un segundo numero "))
-
-# Atribucion Multiple
-
-a, b = b, a
-
-x, y, z = 3, 4, 5
-x, y, z = x**2, x+y+z, x*y*z
-
-print("x es " + str(x))
-print("y es " + str(y))
-print("z es " + str(z))
-"""
--------------------------------------
-"""
-
-if a > b:
-    print("El primer numero %d es mayor que el segundo %d." %(a, b))
-elif a < b:
-    print("El segundo numero %d es mayor que el primero %d." %(b, a))
-else:
-    print("Los numeros son iguales a: " + str(a))
 
 
-print(mt.areaCirculo(5))
+from pprint import pprint
+import sys
+# from sys import path as lpath
+
+pprint(sys.path)
+
+
+# ['C:\\dev\\excript\\app-comercial-kivy\\Test',
+#  'C:\\dev\\excript\\app-comercial-kivy',
+#  'C:\\dev\\excript\\app-comercial-kivy\\BasicThings',
+
+#  'C:\\dev\\excript\\app-comercial-kivy\\venv\\Scripts\\python37.zip',
+#  'C:\\Users\\alvar\\AppData\\Local\\Programs\\Python\\Python37-32\\DLLs',
+#  'C:\\Users\\alvar\\AppData\\Local\\Programs\\Python\\Python37-32\\lib',
+#  'C:\\Users\\alvar\\AppData\\Local\\Programs\\Python\\Python37-32',
+#  'C:\\dev\\excript\\app-comercial-kivy\\venv',
+#  'C:\\dev\\excript\\app-comercial-kivy\\venv\\lib\\site-packages',
+#  'C:\\dev\\excript\\app-comercial-kivy\\venv\\lib\\site-packages\\setuptools-39.1.0-py3.7.egg',
+#  'C:\\dev\\excript\\app-comercial-kivy\\venv\\lib\\site-packages\\pip-10.0.1-py3.7.egg']
