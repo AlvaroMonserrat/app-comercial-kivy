@@ -7,3 +7,4 @@ Curso de Python
   - Dicionarios
   - Funciones
   - Modulos
+  - Perceptrón
