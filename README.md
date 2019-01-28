@@ -11,3 +11,4 @@ Curso de Python
   - Objetos
   - ObjetosClass
   - Propiedades
+  -ObjectosClassProperty
