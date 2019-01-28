@@ -11,4 +11,5 @@ Curso de Python
   - Objetos
   - ObjetosClass
   - Propiedades
-  -ObjectosClassProperty
+  - ObjectosClassProperty
+  - ClassType
