@@ -10,3 +10,4 @@ Curso de Python
   - Excepcion
   - Objetos
   - ObjetosClass
+  - Propiedades
