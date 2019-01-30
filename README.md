@@ -13,3 +13,4 @@ Curso de Python
   - Propiedades
   - ObjectosClassProperty
   - ClassType
+  - Metodo
