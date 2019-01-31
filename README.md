@@ -14,3 +14,4 @@ Curso de Python
   - ObjectosClassProperty
   - ClassType
   - Metodo
+  - MetodoEstatico
