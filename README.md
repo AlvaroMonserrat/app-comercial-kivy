@@ -15,3 +15,4 @@ Curso de Python
   - ClassType
   - Metodo
   - MetodoEstatico
+  - Perceptrón

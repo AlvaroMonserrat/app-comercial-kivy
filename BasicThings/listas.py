@@ -64,8 +64,27 @@ print(list_names)
 
 
 #Lenght, Contar elementos, index
-
+"""
 list_nums = [10, 20, 30 ,40 ,50 ,60 ,70 ,60 ,80 ,60]
 print(len(list_nums)) #Entrega el numero de elementos de la lista
 print(list_nums.count(60)) #Entrega en numero de elementos iguales
 print(list_nums.index(30)) #Entrega la posicion del elemento a buscar
+"""
+
+
+#Tuplas ( )
+
+t = tuple("abc")
+a = "aaa", 1, True
+value = 2
+print(t)
+print(a)
+print(type(a))
+
+x = 10
+if x in (1, 5, 10, 20, 30):
+    print("El valor esta contenido")
+else:
+
+    print("El valor no esta contenido")
+
