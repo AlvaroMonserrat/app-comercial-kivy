@@ -51,3 +51,33 @@ print_zeroError(num1, num2)
 ---------------------------------------------------"""
 
 """---------Multiples Excepciones-----------"""
+
+def error(x):
+    try:
+        eval(x)
+    except TypeError:
+        print("Error: TypeError")
+    except NameError as e:
+        print("Error: NameError")
+        print(type(e))  #Tipo de objeto_
+        print(e.args)   #Argumentos del mensaje
+        print(e)        #mensaje __str__
+    except(ValueError, SyntaxError):
+        print("Error: ValueError or SyntaxError")
+    else:
+        print("No ha ocurrido error")
+    finally:
+        print("Siempre sera ejecutado")
+        print("----------------------")
+
+#TypeError
+error("int+int")
+
+#NameError
+error("find()")
+
+#ValueError
+error("int('a')")
+
+#Value corret
+error("print('Python code')")

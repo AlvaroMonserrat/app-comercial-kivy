@@ -4,9 +4,9 @@
 #Ejecucion
 
 import dis
-
 from math import pi
 
+print(__name__)
 
 def areaCirculo(radio):
     print("El area del circulo de radio", radio, "es igual a:")
@@ -20,3 +20,4 @@ def areaRectangulo(x,y):
 
 #byte code de la funcion areaCirculo
 dis.dis(areaCirculo)
+
