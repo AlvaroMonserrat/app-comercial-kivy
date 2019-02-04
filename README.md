@@ -7,4 +7,12 @@ Curso de Python
   - Dicionarios
   - Funciones
   - Modulos
+  - Excepcion
+  - Objetos
+  - ObjetosClass
+  - Propiedades
+  - ObjectosClassProperty
+  - ClassType
+  - Metodo
+  - MetodoEstatico
   - Perceptrón
