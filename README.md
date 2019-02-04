@@ -15,3 +15,7 @@
   - Metodo
   - MetodoEstatico
   - Perceptrón
+  ## KivyThings:
+  - DataInput
+  - FirstApp
+  - ObjectApp
