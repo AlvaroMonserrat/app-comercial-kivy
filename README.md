@@ -1,5 +1,4 @@
-# app-comercial-kivy
-Curso de Python
+# Curso de Python app-comercial-kivy
 ## BasicThings:
   - Iteradores
   - Estructuras de Datos - Lista y Tupla
