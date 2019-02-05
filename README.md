@@ -18,4 +18,4 @@
   ## KivyThings:
   - DataInput
   - FirstApp
-  - ObjectApp
+  - Posicionamiento
