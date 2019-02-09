@@ -18,4 +18,6 @@
   ## KivyThings:
   - DataInput
   - FirstApp
-  - ObjectApp
+  - Posicionamiento
+  - PythonKivy
+  - KvKivy
