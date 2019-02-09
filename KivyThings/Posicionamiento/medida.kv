@@ -1,0 +1,45 @@
+#:import hex kivy.utils.get_color_from_hex
+<RootWidget>:
+    canvas.before:
+        Color:
+            rgba: hex('#103572')
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    Button:
+        size_hint: .2, .09
+        pos_hint: {'right': 1.}
+        text: "RIGHT"
+        font_size: '11sp'
+
+    Button:
+        size_hint: .2, .09
+        pos_hint: {'right': 1., 'top': 1.}
+        text: "TOP- RIGHT"
+        font_size: '11sp'
+        background_color: hex('#E7732F')
+
+    Button:
+        size_hint: .2, .09
+        pos_hint: {'top': 1.}
+        text: "TOP"
+        font_size: '11sp'
+        background_color: hex('#167046')
+
+    Button:
+        size_hint: .5, .09
+        pos_hint: {'center_x': .5, 'center_y': .5}
+
+        text: "CENTER"
+        font_size: '11sp'
+
+    Button:
+        size_hint: None, None
+        width: 150
+        height: 100
+        #size: (4, 2)
+        pos: 0, 0
+
+        text: "(x = 0, y = 0)"
+        font_size: '11sp'
