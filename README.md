@@ -19,3 +19,5 @@
   - DataInput
   - FirstApp
   - Posicionamiento
+  - PythonKivy
+  - KvKivy
