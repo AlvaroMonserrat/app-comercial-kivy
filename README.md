@@ -21,3 +21,5 @@
   - Posicionamiento
   - PythonKivy
   - KvKivy
+  - PythonKivy
+  - KivyLangApp
