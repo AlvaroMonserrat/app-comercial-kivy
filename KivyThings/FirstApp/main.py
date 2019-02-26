@@ -9,9 +9,8 @@ def click():
 
 def build():
     layout = FloatLayout()
-
-    ed = TextInput(text="eXcript")
     global ed
+    ed = TextInput(text="eXcript")
     ed.size_hint = None, None
     ed.height = 300
     ed.width = 400

@@ -1,0 +1,28 @@
+#:set x "There are Buttons"
+#:import o os
+
+<MiButton@Button>:
+    text: "button"
+
+<MiToggleButton@ToggleButton>:
+    text: "toggleButton"
+
+<Tela@BoxLayout>:
+    orientation: "horizontal"
+    MiButton:
+    MiButton:
+    MiButton:
+
+<TelaDos@BoxLayout>
+    orientation: "vertical"
+    MiToggleButton:
+    MiToggleButton:
+    MiToggleButton:
+
+
+BoxLayout:
+    Label:
+        text: x
+    Tela:
+    TelaDos:
+

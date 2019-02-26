@@ -1,0 +1,24 @@
+
+<MiCaja@BoxLayout>:
+    orientation: "vertical"
+
+
+    Label:
+        text: root.orientation #root apunta a la clase Boxlayout
+        id: lb1
+    Label:
+        text: "Opacity: "+str(self.opacity) #self apunta al widget Label
+        id: lb2
+    Label:
+        text: app.name #app apunta a la aplicaccion app
+        id: lb3
+
+    Button:
+        text: "OK"
+        on_press: root.click()
+
+BoxLayout:
+    MiCaja:
+    Button:
+        text: "AppButton"
+        on_press: app.funcApp()
