@@ -19,7 +19,12 @@
   - DataInput
   - FirstApp
   - Posicionamiento
+  - ClassBuilderKv
   - PythonKivy
   - KvKivy
   - PythonKivy
   - KivyLangApp
+  - KivyConectPython
+  - FirstApp
+  - CalculadoraKV
+  - CalculadoraPython
